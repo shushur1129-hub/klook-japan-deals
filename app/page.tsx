@@ -15,8 +15,8 @@ const cities = [
     description: '日本首都，融合現代與傳統的魅力城市',
     highlight: '淺草寺・新宿・澀谷・秋葉原',
     color: 'from-blue-600 to-blue-800',
-    hotelUrl: 'https://www.klook.com/zh-TW/destination/c28-tokyo/3-hotel/',
-    activityUrl: 'https://www.klook.com/zh-TW/destination/c28-tokyo/',
+    hotelUrl: 'https://www.klook.com/zh-TW/hotels/searchresult/?adult_num=2&child_num=0&city_id=28&room_num=1&stype=city&svalue=28&title=%E6%9D%B1%E4%BA%AC',
+    activityUrl: 'https://www.klook.com/zh-TW/search/result/?query=%E6%9D%B1%E4%BA%AC',
   },
   {
     id: '2',
@@ -26,8 +26,8 @@ const cities = [
     description: '美食天堂，道頓堀夜生活最精彩',
     highlight: '環球影城・道頓堀・大阪城・心齋橋',
     color: 'from-orange-600 to-orange-800',
-    hotelUrl: 'https://www.klook.com/zh-TW/destination/c30-osaka/3-hotel/',
-    activityUrl: 'https://www.klook.com/zh-TW/destination/c30-osaka/',
+    hotelUrl: 'https://www.klook.com/zh-TW/hotels/searchresult/?adult_num=2&child_num=0&city_id=29&room_num=1&stype=city&svalue=29&title=%E5%A4%A7%E9%98%AA',
+    activityUrl: 'https://www.klook.com/zh-TW/search/result/?query=%E5%A4%A7%E9%98%AA',
   },
   {
     id: '3',
@@ -37,8 +37,8 @@ const cities = [
     description: '千年古都，寺廟神社與傳統文化的精髓',
     highlight: '嵐山・伏見稻荷・金閣寺・祇園',
     color: 'from-red-600 to-red-800',
-    hotelUrl: 'https://www.klook.com/zh-TW/destination/c31-kyoto/3-hotel/',
-    activityUrl: 'https://www.klook.com/zh-TW/destination/c31-kyoto/',
+    hotelUrl: 'https://www.klook.com/zh-TW/hotels/searchresult/?adult_num=2&child_num=0&city_id=30&room_num=1&stype=city&svalue=30&title=%E4%BA%AC%E9%83%BD',
+    activityUrl: 'https://www.klook.com/zh-TW/destination/c30-kyoto/',
   },
   {
     id: '4',
@@ -48,8 +48,8 @@ const cities = [
     description: '北國絕景，滑雪溫泉螃蟹一次滿足',
     highlight: '札幌・小樽・函館・富良野',
     color: 'from-cyan-600 to-cyan-800',
-    hotelUrl: 'https://www.klook.com/zh-TW/destination/c35-sapporo/3-hotel/',
-    activityUrl: 'https://www.klook.com/zh-TW/destination/c35-sapporo/',
+    hotelUrl: 'https://www.klook.com/zh-TW/hotels/searchresult/?adult_num=2&child_num=0&room_num=1&stype=province&svalue=32&title=%E5%8C%97%E6%B5%B7%E9%81%93',
+    activityUrl: 'https://www.klook.com/zh-TW/search/result/?query=%E5%8C%97%E6%B5%B7%E9%81%93',
   },
   {
     id: '5',
@@ -59,8 +59,8 @@ const cities = [
     description: '南國海島度假勝地，透明海水與珊瑚礁',
     highlight: '美麗海水族館・首里城・潛水・浮潛',
     color: 'from-teal-600 to-teal-800',
-    hotelUrl: 'https://www.klook.com/zh-TW/destination/c64-naha/3-hotel/',
-    activityUrl: 'https://www.klook.com/zh-TW/destination/c64-naha/',
+    hotelUrl: 'https://www.klook.com/zh-TW/hotels/searchresult/?adult_num=2&child_num=0&room_num=1&stype=province&svalue=6484&title=%E6%B2%96%E7%B9%A9%E7%B8%A3',
+    activityUrl: 'https://www.klook.com/zh-TW/search/result/?query=%E6%B2%96%E7%B9%A9',
   },
   {
     id: '6',
@@ -70,8 +70,8 @@ const cities = [
     description: '九州門戶，博多拉麵與新鮮海鮮的故鄉',
     highlight: '太宰府・博多・天神・柳川',
     color: 'from-purple-600 to-purple-800',
-    hotelUrl: 'https://www.klook.com/zh-TW/destination/c38-fukuoka/3-hotel/',
-    activityUrl: 'https://www.klook.com/zh-TW/destination/c38-fukuoka/',
+    hotelUrl: 'https://www.klook.com/zh-TW/hotels/searchresult/?adult_num=2&child_num=0&city_id=23442&room_num=1&stype=city&svalue=23442&title=%E7%A6%8F%E5%B2%A1',
+    activityUrl: 'https://www.klook.com/zh-TW/search/result/?query=%E7%A6%8F%E5%B2%A1',
   },
 ]
 
