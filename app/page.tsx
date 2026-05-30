@@ -15,7 +15,7 @@ const cities = [
     description: '日本首都，融合現代與傳統的魅力城市',
     highlight: '淺草寺・新宿・澀谷・秋葉原',
     color: 'from-blue-600 to-blue-800',
-    hotelUrl: 'https://www.klook.com/zh-TW/hotels/list/?city_id=6',
+    hotelUrl: 'https://www.klook.com/zh-TW/hotels/?filterCityId=6',
     activityUrl: 'https://www.klook.com/zh-TW/search/?query=tokyo',
   },
   {
@@ -26,7 +26,7 @@ const cities = [
     description: '美食天堂，道頓堀夜生活最精彩',
     highlight: '環球影城・道頓堀・大阪城・心齋橋',
     color: 'from-orange-600 to-orange-800',
-    hotelUrl: 'https://www.klook.com/zh-TW/hotels/list/?city_id=9',
+    hotelUrl: 'https://www.klook.com/zh-TW/hotels/?filterCityId=9',
     activityUrl: 'https://www.klook.com/zh-TW/search/?query=osaka',
   },
   {
@@ -37,7 +37,7 @@ const cities = [
     description: '千年古都，寺廟神社與傳統文化的精髓',
     highlight: '嵐山・伏見稻荷・金閣寺・祇園',
     color: 'from-red-600 to-red-800',
-    hotelUrl: 'https://www.klook.com/zh-TW/hotels/list/?city_id=10',
+    hotelUrl: 'https://www.klook.com/zh-TW/hotels/?filterCityId=10',
     activityUrl: 'https://www.klook.com/zh-TW/search/?query=kyoto',
   },
   {
@@ -48,7 +48,7 @@ const cities = [
     description: '北國絕景，滑雪溫泉螃蟹一次滿足',
     highlight: '札幌・小樽・函館・富良野',
     color: 'from-cyan-600 to-cyan-800',
-    hotelUrl: 'https://www.klook.com/zh-TW/hotels/list/?city_id=12',
+    hotelUrl: 'https://www.klook.com/zh-TW/hotels/?filterCityId=12',
     activityUrl: 'https://www.klook.com/zh-TW/search/?query=hokkaido',
   },
   {
@@ -59,7 +59,7 @@ const cities = [
     description: '南國海島度假勝地，透明海水與珊瑚礁',
     highlight: '美麗海水族館・首里城・潛水・浮潛',
     color: 'from-teal-600 to-teal-800',
-    hotelUrl: 'https://www.klook.com/zh-TW/hotels/list/?city_id=53',
+    hotelUrl: 'https://www.klook.com/zh-TW/hotels/?filterCityId=53',
     activityUrl: 'https://www.klook.com/zh-TW/search/?query=okinawa',
   },
   {
@@ -70,7 +70,7 @@ const cities = [
     description: '九州門戶，博多拉麵與新鮮海鮮的故鄉',
     highlight: '太宰府・博多・天神・柳川',
     color: 'from-purple-600 to-purple-800',
-    hotelUrl: 'https://www.klook.com/zh-TW/hotels/list/?city_id=17',
+    hotelUrl: 'https://www.klook.com/zh-TW/hotels/?filterCityId=17',
     activityUrl: 'https://www.klook.com/zh-TW/search/?query=fukuoka',
   },
 ]
