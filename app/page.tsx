@@ -24,7 +24,7 @@ const mockDeals: Deal[] = [
     originalPrice: 2800,
     discountedPrice: 2380,
     discount: 15,
-    imageUrl: 'https://res.klook.com/image/upload/c_fill,w_560,h_420/q_80/w_80,x_15,y_15,g_south_west,l_klook_water/activities/tokyo-disneyland.jpg',
+    imageUrl: 'https://placehold.co/560x420/1e293b/64748b?text=Tokyo+Disney',
     url: 'https://www.klook.com/zh-TW/activity/17310-tokyo-disneyland-ticket/',
     category: '主題樂園',
   },
@@ -34,7 +34,7 @@ const mockDeals: Deal[] = [
     originalPrice: 3200,
     discountedPrice: 2720,
     discount: 15,
-    imageUrl: 'https://res.klook.com/image/upload/c_fill,w_560,h_420/q_80/w_80,x_15,y_15,g_south_west,l_klook_water/activities/osaka-usj.jpg',
+    imageUrl: 'https://placehold.co/560x420/1e293b/64748b?text=USJ+Osaka',
     url: 'https://www.klook.com/zh-TW/activity/5753-universal-studios-japan-ticket-osaka/',
     category: '主題樂園',
   },
@@ -44,7 +44,7 @@ const mockDeals: Deal[] = [
     originalPrice: 15000,
     discountedPrice: 12750,
     discount: 15,
-    imageUrl: 'https://res.klook.com/image/upload/c_fill,w_560,h_420/q_80/w_80,x_15,y_15,g_south_west,l_klook_water/activities/jr-pass.jpg',
+    imageUrl: 'https://placehold.co/560x420/1e293b/64748b?text=JR+Pass',
     url: 'https://www.klook.com/zh-TW/activity/2597-jr-pass-japan/',
     category: '交通',
   },
@@ -54,7 +54,7 @@ const mockDeals: Deal[] = [
     originalPrice: 1200,
     discountedPrice: 960,
     discount: 20,
-    imageUrl: 'https://res.klook.com/image/upload/c_fill,w_560,h_420/q_80/w_80,x_15,y_15,g_south_west,l_klook_water/activities/kyoto-rickshaw.jpg',
+    imageUrl: 'https://placehold.co/560x420/1e293b/64748b?text=Kyoto+Rickshaw',
     url: 'https://www.klook.com/zh-TW/activity/2863-arashiyama-rickshaw-kyoto/',
     category: '體驗',
   },
@@ -64,7 +64,7 @@ const mockDeals: Deal[] = [
     originalPrice: 3500,
     discountedPrice: 2975,
     discount: 15,
-    imageUrl: 'https://res.klook.com/image/upload/c_fill,w_560,h_420/q_80/w_80,x_15,y_15,g_south_west,l_klook_water/activities/mt-fuji-day-trip.jpg',
+    imageUrl: 'https://placehold.co/560x420/1e293b/64748b?text=Mt+Fuji',
     url: 'https://www.klook.com/zh-TW/activity/2965-mt-fuji-day-trip-tokyo/',
     category: '一日遊',
   },
@@ -74,7 +74,7 @@ const mockDeals: Deal[] = [
     originalPrice: 900,
     discountedPrice: 765,
     discount: 15,
-    imageUrl: 'https://res.klook.com/image/upload/c_fill,w_560,h_420/q_80/w_80,x_15,y_15,g_south_west,l_klook_water/activities/okinawa-aquarium.jpg',
+    imageUrl: 'https://placehold.co/560x420/1e293b/64748b?text=Okinawa+Aquarium',
     url: 'https://www.klook.com/zh-TW/activity/3518-okinawa-churaumi-aquarium/',
     category: '景點',
   },
@@ -105,9 +105,6 @@ export default function Home() {
                 src={deal.imageUrl}
                 alt={deal.title}
                 className="w-full h-48 object-cover"
-                onError={(e) => {
-                  (e.target as HTMLImageElement).src = 'https://via.placeholder.com/560x420/1e293b/64748b?text=Klook+Japan'
-                }}
               />
               <div className="absolute top-3 left-3 bg-red-500 text-white text-sm font-bold px-2 py-1 rounded-lg">
                 -{deal.discount}%
