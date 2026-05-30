@@ -15,8 +15,8 @@ const cities = [
     description: '日本首都，融合現代與傳統的魅力城市',
     highlight: '淺草寺・新宿・澀谷・秋葉原',
     color: 'from-blue-600 to-blue-800',
-    hotelUrl: 'https://www.klook.com/zh-TW/hotels/list/?city_id=6&cityName=%E6%9D%B1%E4%BA%AC',
-    activityUrl: 'https://www.klook.com/zh-TW/tokyo-attractions/5-city/',
+    hotelUrl: 'https://www.klook.com/zh-TW/hotels/list/?city_id=6',
+    activityUrl: 'https://www.klook.com/zh-TW/search/?query=tokyo',
   },
   {
     id: '2',
@@ -26,8 +26,8 @@ const cities = [
     description: '美食天堂，道頓堀夜生活最精彩',
     highlight: '環球影城・道頓堀・大阪城・心齋橋',
     color: 'from-orange-600 to-orange-800',
-    hotelUrl: 'https://www.klook.com/zh-TW/hotels/list/?city_id=9&cityName=%E5%A4%A7%E9%98%AA',
-    activityUrl: 'https://www.klook.com/zh-TW/osaka-attractions/9-city/',
+    hotelUrl: 'https://www.klook.com/zh-TW/hotels/list/?city_id=9',
+    activityUrl: 'https://www.klook.com/zh-TW/search/?query=osaka',
   },
   {
     id: '3',
@@ -37,8 +37,8 @@ const cities = [
     description: '千年古都，寺廟神社與傳統文化的精髓',
     highlight: '嵐山・伏見稻荷・金閣寺・祇園',
     color: 'from-red-600 to-red-800',
-    hotelUrl: 'https://www.klook.com/zh-TW/hotels/list/?city_id=10&cityName=%E4%BA%AC%E9%83%BD',
-    activityUrl: 'https://www.klook.com/zh-TW/kyoto-attractions/10-city/',
+    hotelUrl: 'https://www.klook.com/zh-TW/hotels/list/?city_id=10',
+    activityUrl: 'https://www.klook.com/zh-TW/search/?query=kyoto',
   },
   {
     id: '4',
@@ -48,8 +48,8 @@ const cities = [
     description: '北國絕景，滑雪溫泉螃蟹一次滿足',
     highlight: '札幌・小樽・函館・富良野',
     color: 'from-cyan-600 to-cyan-800',
-    hotelUrl: 'https://www.klook.com/zh-TW/hotels/list/?city_id=12&cityName=%E6%9C%AD%E5%B9%8C',
-    activityUrl: 'https://www.klook.com/zh-TW/sapporo-attractions/12-city/',
+    hotelUrl: 'https://www.klook.com/zh-TW/hotels/list/?city_id=12',
+    activityUrl: 'https://www.klook.com/zh-TW/search/?query=hokkaido',
   },
   {
     id: '5',
@@ -59,8 +59,8 @@ const cities = [
     description: '南國海島度假勝地，透明海水與珊瑚礁',
     highlight: '美麗海水族館・首里城・潛水・浮潛',
     color: 'from-teal-600 to-teal-800',
-    hotelUrl: 'https://www.klook.com/zh-TW/hotels/list/?city_id=53&cityName=%E6%B2%96%E7%B9%A9',
-    activityUrl: 'https://www.klook.com/zh-TW/okinawa-attractions/53-city/',
+    hotelUrl: 'https://www.klook.com/zh-TW/hotels/list/?city_id=53',
+    activityUrl: 'https://www.klook.com/zh-TW/search/?query=okinawa',
   },
   {
     id: '6',
@@ -70,8 +70,8 @@ const cities = [
     description: '九州門戶，博多拉麵與新鮮海鮮的故鄉',
     highlight: '太宰府・博多・天神・柳川',
     color: 'from-purple-600 to-purple-800',
-    hotelUrl: 'https://www.klook.com/zh-TW/hotels/list/?city_id=17&cityName=%E7%A6%8F%E5%B2%A1',
-    activityUrl: 'https://www.klook.com/zh-TW/fukuoka-attractions/17-city/',
+    hotelUrl: 'https://www.klook.com/zh-TW/hotels/list/?city_id=17',
+    activityUrl: 'https://www.klook.com/zh-TW/search/?query=fukuoka',
   },
 ]
 
@@ -82,7 +82,7 @@ export default function Home() {
         <h1 className="text-4xl font-bold mb-2">🎌 日本旅遊特惠總整理</h1>
         <p className="text-slate-400 text-lg">精選日本熱門城市・飯店＋景點最優惠價格</p>
         <div className="mt-4 inline-block bg-blue-500/20 text-blue-400 px-4 py-1 rounded-full text-sm">
-          🔥 每日更新・即時 Klook 官方最低價
+          🔥 即時 Klook 官方最低價
         </div>
       </header>
 
